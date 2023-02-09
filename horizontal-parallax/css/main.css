@@ -9,6 +9,9 @@
 html,body {
 	height: 100%;
 	background-color: #000;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1.5px;
 }
 .slider {
 	height: 100%;
@@ -35,4 +38,17 @@ html,body {
 	will-change: transform;
 	transform-style: preserve-3d;
 	transition: var(--transition) !important;
+}
+header{
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+}
+header a {
+	text-decoration: none;
+	color: #fff;
+}
+header a:hover {
+	text-decoration: underline;
 }
